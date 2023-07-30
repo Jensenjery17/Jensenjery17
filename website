@@ -1,0 +1,510 @@
+<html><head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<title>11+ Buddy Home</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Georgia; margin: 0;}
+
+
+
+.navbar {
+  width: 100%;
+  background-color: #000080;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 3px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 16.652%; /* Six links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #4E6B8D;
+}
+
+
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.centre {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+.myDiv {
+  border: 5px outset blue; 
+  background-color: white;    
+  image-orientation: auto;
+}
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.active {
+  background-color: #0980FF;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1} 
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+.footer {
+   position: float;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 120px;
+   background-color: #4c5a69;
+   color: white;
+   text-align: center;
+}
+
+
+
+@media screen and (max-width: 630px) {
+  .navbar a {
+    width: 100%;
+    display:inline-block;
+  } 
+
+}
+</style></head>
+
+<body><a href="index.html"><img src="logo.png" alt="Paris" class="centre" width="16%"></a>
+<div class="navbar">
+  <a class="active" href="index.html">Home</a> 
+  <a href="prices.html">Prices</a> 
+  <a href="registration.html">Registration</a> 
+  <a href="testimonials.html">Testimonials</a>
+  <a href="resources.html">Resources</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade" style="display: none;">
+  <img src="Slideshow images\slideshow for website\Slide1.PNG" style="width:100%">
+</div>
+
+<div class="mySlides fade" style="display: none;">
+  <img src="Slideshow images\slideshow for website\Slide2.PNG" style="width:100%">
+</div>
+
+<div class="mySlides fade" style="display: block;">
+  <img src="Slideshow images\slideshow for website\Slide3.PNG" style="width:100%">
+</div>
+
+<div class="mySlides fade" style="display: none;">
+  <img src="Slideshow images\slideshow for website\Slide4.PNG" style="width:100%">
+</div>
+
+<div class="mySlides fade" style="display: none;">
+  <img src="Slideshow images\slideshow for website\Slide5.PNG" style="width:100%">
+</div>
+
+<img src="badges.JPG" width="100%" height="100" alt="" border="0">
+
+</div>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia;
+  font-size: 17px;
+}
+
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+</style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home-text {
+  width: 50%;
+  height: auto;
+  float: left;
+  display: inline-block;
+ }
+ 
+.home-picture {
+  width: 50%;
+  float: right;
+  display: inline-block;
+ }
+</style>
+
+<div class="home-text">
+  <!--<img src="website cartoon 2.jpg" alt="Snow" style="width:100%;">-->
+  <h1><b><u>11+ Buddy Methodology</u></b></h1>
+<p>It can be a scary and stressful moment for students and their parents who are set to take the 11 plus exam. Trying to balance life with extra study time can be challenging and exhausting. It doesn't have to be that way, though.
+With a carefully developed course that prepares pupils for their grammar school entrance exam, we at 11 Plus Buddy have already helped families manage the extra effort! Come and join us, so that the stress can be relived from your shoulders onto ours. We will help you make your journey to Grammar School succesful.</p></div>
+
+<div class="home-picture"><img src="website image 3.jpg" width="100%"></div>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+  color: #111;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #0000; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+</style>
+
+
+<button class="accordion" style="background-color:#4E6B8D ">Langley Grammar School</button>
+<div class="panel">
+<p><a href="https://www.lgs.slough.sch.uk/">Visit their website</a></p>
+<p>We are an innovative and forward-thinking school, committed to developing our students into well-rounded, confident and successful young men and women.
+Our students come from a wide range of backgrounds to form a friendly and harmonious community. We provide a supportive and secure environment that enables them to flourish as individuals and achieve excellent examination outcomes.</p>
+</div>
+
+<button class="accordion">Kendrick School</button>
+<div class="panel">
+<p><a href="https://www.kendrick.reading.sch.uk//">Visit their website</a></p>
+  <p>Kendrick School is a high achieving selective school for girls aged 11 to 18 located in Reading, Berkshire. It is acknowledged as being amongst the very best state schools in the country. In its last four OFSTED inspections, Kendrick was graded an outstanding school.</p>
+</div>
+
+<button class="accordion" style="background-color:#4E6B8D ">Herschel Grammar School</button>
+<div class="panel">
+<p><a href="https://www.herschel.slough.sch.uk/">Visit their website</a></p>
+  <p>Herschel Grammar School is a co-educational grammar school with academy status, located in Slough, Berkshire, England.</p>
+</div>
+
+<button class="accordion">Upton Court Grammar School</button>
+<div class="panel">
+<p><a href="https://www.uptoncourtgrammar.org.uk/">Visit their website</a></p>
+  <p>The school values its tradition of excellence and honours all of those who have, through their academic credentials and personal commitment, become outstanding members of the community and role models for the next generation. </p>
+</div>
+<button class="accordion" style="background-color:#4E6B8D ">Reading Boys School</button>
+<div class="panel">
+<p><a href="https://www.reading-school.co.uk/">Visit their website</a></p>
+<p>Reading School is a selective grammar school for boys with academy status in the English town of Reading, the county of Berkshire. It traces its history back to the school of Reading Abbey, making it one of the oldest schools in England. </p>
+</div>
+
+<button class="accordion">St Bernard's Catholic Grammar School</button>
+<div class="panel">
+<p><a href="https://www.st-bernards.slough.sch.uk/">Visit their website</a></p>
+  <p>St Bernard's Catholic Grammar School is an academically selective Roman Catholic grammar school on Langley Road, Slough, Langley, Berkshire. It was previously designated as a Humanities College. </p>
+</div>
+<style>
+.footer {
+   position: static;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height:40%;
+   background-color: #364450;
+   color: white;
+   text-align: bottom;
+}
+</style>
+
+<div class="footer">
+<img src="heretohelp.PNG" width="290" height="54" alt="" title="">
+
+  <p>Copyright © 2022 11+ Buddy Tuition. All Rights Reserved.</p>
+  
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.fa {
+  padding: 0.0002px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  text-align:centre;
+  position:relative;
+}
+
+.fa:hover {
+    opacity: 0.8;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+
+}
+
+</style>
+
+
+
+<div class="col-xs-12">
+                    <hr>
+                </div>
+
+
+<!-- Add font awesome icons -->
+<a href="http:/m.facebook.com/11-Buddy-106019375240820" class="fa fa-facebook"></a>
+<a href="https://www.youtube.com/channel/UCofZU1e-JSObt8Xc37Mg3Nw/featured" class="fa fa-youtube"></a>
+<a href="https://twitter.com/11plusbuddy" class="fa fa-twitter"></a>
+</div>
+
+ 
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.active {background-color: #4E6B8D; }
+
+.footer {
+   position: static;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #364450;
+   color: white;
+   text-align: center;
+}
+</style>
+<div class="footer">
+  
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px white; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #000080; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #4E6B8D; 
+}
+</style> 
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+
+
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+
+
+
+ 
+
+</div></body></html>
